@@ -1,11 +1,9 @@
-import "./globals.css";
+import { Header } from "./Components/Header";
 
-export function Home() {
+export default function Home() {
   return (
-    <div>
-      <main>
-        <h1>Hello World</h1>
-      </main>
-    </div>
+    <>
+      <Header />
+    </>
   );
 }
